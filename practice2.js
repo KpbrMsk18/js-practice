@@ -15,6 +15,7 @@
 
 const sleep = (val) => {
     return new Promise((resolve) => {
+    //new Promise((resolve) => {
         setTimeout(() => {
             console.log(val++);
             resolve(val);
