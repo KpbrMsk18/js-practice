@@ -35,4 +35,5 @@ async function init() {
 init().then((val) => console.log(`val: ${val}`));
 
 
-
+//asyncが返すもの、受けられるものはPromiseオブジェクトそのもの
+//awaitで受けられるものはPromiseのinstance
